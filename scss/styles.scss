@@ -34,12 +34,12 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #7621d6;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: rgb(41, 38, 38);
+$background-alt: #19191b;
 
 // Define border colors
 $border: #dcd9d9;
@@ -922,6 +922,7 @@ footer {
     }
 
     #menu {
+        background-color: #19191b;
         height: 100%;
         overflow-y: auto;
         box-shadow: none;

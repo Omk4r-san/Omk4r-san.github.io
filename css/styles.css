@@ -217,7 +217,7 @@ footer {
 
 .btn-rounded-white {
 	display: inline-block;
-	color: #fff;
+	color: #673ab7;
 	padding: 15px 25px;
 	border: 3px solid #fff;
 	border-radius: 30px;
@@ -225,7 +225,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-	color: #3498db;
+	color: #673ab7;
 	background: #fff;
 	text-decoration: none
 }
@@ -255,7 +255,7 @@ footer {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	background: #eb2525
+	background: #673ab7
 }
 
 .background-alt {
@@ -297,7 +297,7 @@ footer {
 }
 
 #lead-content h2 {
-	color: #a0cfee;
+	color: #673ab7;
 	font-weight: 500;
 	font-size: 2.25em;
 	margin-bottom: 15px
@@ -311,7 +311,7 @@ footer {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(3, 12, 19, 0.842);
+	background: rgba(0, 0, 0, 0.842);
 	z-index: 1
 }
 
@@ -333,7 +333,7 @@ footer {
 	width: 35px;
 	height: 35px;
 	border-radius: 50%;
-	border: 3px solid #a0cfee;
+	border: 3px solid #673ab7;
 	text-align: center
 }
 
@@ -356,9 +356,9 @@ footer {
 }
 
 #about {
-    background-color: rgb(34, 33, 33);
+    background-color: #222222;
 	padding: 75px 15px;
-	border-bottom: 1px solid #dcd9d9
+
 }
 
 #about h2 {
@@ -371,7 +371,7 @@ footer {
 }
 
 #experience {
-    background-color: rgb(56, 54, 54);
+    background-color:#3b3b3b;
 	padding: 50px 15px;
 	text-align: center;
 	border-bottom: 1px solid #464343
@@ -396,7 +396,7 @@ footer {
 	right: auto;
 	height: 100%;
 	width: 3px;
-	background: #3498db;
+	background: #673ab7;
 	z-index: 0
 }
 
@@ -405,8 +405,8 @@ footer {
 	content: '';
 	width: 3px;
 	height: 40px;
-	background: #3498db;
-	background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+	background: #673ab7;
+	background: linear-gradient(to bottom, #673ab7, rgba(52, 152, 219, 0));
 	top: 100%;
 	left: 303px
 }
@@ -453,7 +453,7 @@ footer {
 	color: #fff;
 	width: 50px;
 	height: 50px;
-	background: #3498db;
+	background: #673ab7;
 	border-radius: 50%;
 	float: left;
 	z-index: 99;
@@ -477,9 +477,9 @@ footer {
 }
 
 #education {
-    background-color: rgb(39, 37, 37);
+    background-color: #424242;
 	padding: 50px 15px 20px 15px;
-	border-bottom: 1px solid #dcd9d9;
+	
 	text-align: center
 }
 
@@ -543,7 +543,7 @@ footer {
 	max-width: 900px;
 	margin: 0 auto 30px auto;
 	overflow: hidden;
-	background: #fff;
+	background: #494949;
 	border-radius: 4px
 }
 
@@ -562,12 +562,13 @@ footer {
 .project-info h3 {
 	font-size: 1.5em;
 	font-weight: 300;
-	color: #374054;
+	color: #ffffff;
 	margin: 0 0 15px 0
 }
 
 .project-info p {
-	color: #74808a;
+
+	color: #ffffff;
 	margin: 0 0 15px 0;
 	font-size: 0.9em
 }
@@ -606,8 +607,8 @@ footer {
 	display: inline-block;
 	margin: 7px;
 	padding: 5px 10px;
-	color: #374054;
-	background: #e4e4ea;
+	color: #fff;
+	background: #673ab7;
 	list-style: none;
 	cursor: default;
 	font-size: 1.2em
@@ -615,7 +616,7 @@ footer {
 
 #contact {
 	padding: 50px 15px;
-	background: #3498db;
+	background: #673ab7;
 	text-align: center
 }
 
@@ -638,7 +639,7 @@ footer {
 	border-radius: 4px;
 	border: none;
 	margin-bottom: 10px;
-	background: #1d6fa5;
+	background: #673ab7;
 	color: #fff;
 	transition: .5s ease all
 }
@@ -668,7 +669,7 @@ footer {
 #contact-form input:focus,
 #contact-form textarea:focus {
 	outline: none;
-	background: #16527a
+	background: #673ab7
 }
 
 #contact-form textarea {
@@ -683,7 +684,7 @@ footer {
 	border-radius: 4px;
 	padding: 5px 10px;
 	border: none;
-	color: #3498db;
+	color: #673ab7;
 	font-weight: 700;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	transition: .5s ease all
@@ -798,7 +799,7 @@ footer {
 		display: block
 	}
 	#menu {
-        background:rgb(78, 77, 77);
+        background-color: #3b3b3b;
 		height: 100%;
 		overflow-y: auto;
 		box-shadow: none;
@@ -806,12 +807,12 @@ footer {
 		width: 100%
 	}
 	#menu li {
-        color: #ffffff;
+        color: #673ab7;
 		display: block;
 		margin-bottom: 10px
     }
     #menu li a{
-        color: #ffffff;
+        color: #673ab7;
     }
     #menu li a:hover{
         color:black;
@@ -863,7 +864,37 @@ footer {
 	}
 }
  .divider_custom {
-     background-color: white;
-     height: 3px;
+     background-color:#121212;
+     height: 5px;
 
  }
+ .view-pro {
+   color:#673ab7;
+ }
+ .fa-facebook {
+color: #fff;
+ }
+
+ .fa-whatsapp {
+    
+    color: #fff;
+     
+}
+.fa-twitter {
+    color: #fff;
+     }
+
+.fa-instagram {
+color: #fff;
+ }
+ .fa-github {
+    color: #fff;
+     }
+    
+#contact-me{
+    background-color: #424242;
+}     
+.copyright {
+    color : #fff
+}    
+    
